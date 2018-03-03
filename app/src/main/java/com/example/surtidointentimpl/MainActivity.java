@@ -16,6 +16,8 @@ import android.widget.Toast;
 public class MainActivity extends Activity implements OnClickListener{
 	
 	private Intent in;
+	private final String lat = "41.60788";
+	private final String lon = "0.623333";
 	
 
 	@Override
@@ -24,12 +26,12 @@ public class MainActivity extends Activity implements OnClickListener{
 
         setContentView(R.layout.main);
 
-	    Button btn1 = (Button) findViewById(R.id.button1);
-	    Button btn2 = (Button) findViewById(R.id.button2);
-	    Button btn3 = (Button) findViewById(R.id.button3);
-	    Button btn4 = (Button) findViewById(R.id.button4);
-	    Button btn5 = (Button) findViewById(R.id.button5);
-	    Button btn6 = (Button) findViewById(R.id.button6);
+	    Button btn1 = findViewById(R.id.button1);
+	    Button btn2 = findViewById(R.id.button2);
+	    Button btn3 = findViewById(R.id.button3);
+	    Button btn4 = findViewById(R.id.button4);
+	    Button btn5 = findViewById(R.id.button5);
+	    Button btn6 = findViewById(R.id.button6);
 
 	    btn1.setOnClickListener(this);
 	    btn2.setOnClickListener(this);
@@ -45,8 +47,6 @@ public class MainActivity extends Activity implements OnClickListener{
 		switch (v.getId()) {
 	    case R.id.button1: 
 	      Toast.makeText(this, "Seleccionado Localizacion por coordenadas", Toast.LENGTH_LONG).show();
-	      String lat = "41.60788";
-	      String lon = "0.623333";
 	      in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:" + lat + ',' + lon));
 	      startActivity(in);
 	      break;
@@ -62,7 +62,6 @@ public class MainActivity extends Activity implements OnClickListener{
 	        break;
 	    case R.id.button4:
 	    	Toast.makeText(this, "Buscando en Google", Toast.LENGTH_LONG).show();
-			//in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/search?q=" + "escola politecnica superior UdL"));
 			in = new Intent(Intent.ACTION_WEB_SEARCH);
 			in.putExtra(SearchManager.QUERY, "escola politecnica superior UdL");
 			startActivity(in);
