@@ -18,6 +18,9 @@ public class MainActivity extends Activity implements OnClickListener{
 	private Intent in;
 	private final String lat = "41.60788";
 	private final String lon = "0.623333";
+	private final String url = "http://www.eps.udl.cat/";
+	private final String adressa = "Carrer de Jaume II, 69, Lleida";
+	private final String textoABuscar = "escuela politecnica superior";
 	
 
 	@Override
@@ -42,37 +45,37 @@ public class MainActivity extends Activity implements OnClickListener{
 	    
 	}
 
-	@SuppressWarnings("deprecation")
 	public void onClick (View v) {
 		switch (v.getId()) {
 	    case R.id.button1: 
-	      Toast.makeText(this, "Seleccionado Localizacion por coordenadas", Toast.LENGTH_LONG).show();
+	      Toast.makeText(this, getString(R.string.opcio1), Toast.LENGTH_LONG).show();
 	      in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:" + lat + ',' + lon));
 	      startActivity(in);
 	      break;
 	    case R.id.button2: 
-		    Toast.makeText(this, "Seleccionado Localizacion por direccion", Toast.LENGTH_LONG).show();
-		    in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + "Carrer de Jaume II, 69, Lleida"));
+		    Toast.makeText(this, getString(R.string.opcio2), Toast.LENGTH_LONG).show();
+		    in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + adressa));
 		    startActivity(in);
 	        break;
 	    case R.id.button3:
-	    	Toast.makeText(this, "Accediendo a la web", Toast.LENGTH_LONG).show();
-			in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.eps.udl.cat/"));
+	    	Toast.makeText(this, getString(R.string.opcio3), Toast.LENGTH_LONG).show();
+			in = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
 			startActivity(in);
 	        break;
 	    case R.id.button4:
-	    	Toast.makeText(this, "Buscando en Google", Toast.LENGTH_LONG).show();
+	    	Toast.makeText(this, getString(R.string.opcio4), Toast.LENGTH_LONG).show();
+			//in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/search?q=" + "escola politecnica superior UdL"));
 			in = new Intent(Intent.ACTION_WEB_SEARCH);
-			in.putExtra(SearchManager.QUERY, "escola politecnica superior UdL");
+			in.putExtra(SearchManager.QUERY, textoABuscar);
 			startActivity(in);
 	        break;
 	    case R.id.button5:
-	    	Toast.makeText(this, "Marcando el Tlfn.", Toast.LENGTH_LONG).show();
-			in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:666666666" ));
+	    	Toast.makeText(this, getString(R.string.opcio5), Toast.LENGTH_LONG).show();
+			in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "@string/telef"));
 			startActivity(in);
 	        break;
 	    case R.id.button6:
-	    	Toast.makeText(this, "Accediendo a contactos", Toast.LENGTH_LONG).show();
+	    	Toast.makeText(this, getString(R.string.opcio6), Toast.LENGTH_LONG).show();
 			in = new Intent(Intent.ACTION_VIEW); 
             in.setData(People.CONTENT_URI);
 			startActivity(in);
