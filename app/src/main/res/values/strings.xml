@@ -13,5 +13,13 @@
     <string name="Boto4">Google</string>
     <string name="Boto5">Marcar</string>
     <string name="Boto6">Acceder Contactos</string>
+    <string name="telef">666666666</string>
 
-</resources>
+    <string name="opcio1">Seleccionado Localizacion por coordenadas</string>
+    <string name="opcio2">Seleccionado Localizacion por dirección</string>
+    <string name="opcio3">Accediendo a la web</string>
+    <string name="opcio4">Buscando en Google</string>
+    <string name="opcio5">Marcando el Tlfn.</string>
+    <string name="opcio6">Accediendo a contactos</string>
+
+
