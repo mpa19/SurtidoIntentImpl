@@ -64,7 +64,6 @@ public class MainActivity extends Activity implements OnClickListener{
 	        break;
 	    case R.id.button4:
 	    	Toast.makeText(this, getString(R.string.opcio4), Toast.LENGTH_LONG).show();
-			//in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/search?q=" + "escola politecnica superior UdL"));
 			in = new Intent(Intent.ACTION_WEB_SEARCH);
 			in.putExtra(SearchManager.QUERY, textoABuscar);
 			startActivity(in);
