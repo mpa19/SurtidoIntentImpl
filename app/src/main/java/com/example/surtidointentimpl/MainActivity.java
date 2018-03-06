@@ -76,7 +76,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	    case R.id.button6:
 	    	Toast.makeText(this, getString(R.string.opcio6), Toast.LENGTH_LONG).show();
 			in = new Intent(Intent.ACTION_VIEW); 
-            in.setData(People.CONTENT_URI);
+            in.setData(ContactsContract.Contacts.CONTENT_URI);
 			startActivity(in);
 			break;
 	    }
