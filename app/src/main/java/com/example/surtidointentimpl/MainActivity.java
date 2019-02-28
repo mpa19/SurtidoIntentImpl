@@ -47,38 +47,38 @@ public class MainActivity extends Activity implements OnClickListener{
 
 		switch (v.getId()) {
 	    case R.id.button1: 
-	      Toast.makeText(this, getString(R.string.opcio1), Toast.LENGTH_LONG).show();
-	      in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:" + lat + ',' + lon));
-	      startActivity(in);
-	      break;
+	        Toast.makeText(this, getString(R.string.opcio1), Toast.LENGTH_LONG).show();
+	        in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:" + lat + ',' + lon));
+	        startActivity(in);
+	        break;
 	    case R.id.button2: 
-		    Toast.makeText(this, getString(R.string.opcio2), Toast.LENGTH_LONG).show();
-		    in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + adressa));
-		    startActivity(in);
+		Toast.makeText(this, getString(R.string.opcio2), Toast.LENGTH_LONG).show();
+		in = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=" + adressa));
+		startActivity(in);
 	        break;
 	    case R.id.button3:
 	    	Toast.makeText(this, getString(R.string.opcio3), Toast.LENGTH_LONG).show();
-			in = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-			startActivity(in);
+		in = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+		startActivity(in);
 	        break;
 	    case R.id.button4:
 	    	Toast.makeText(this, getString(R.string.opcio4), Toast.LENGTH_LONG).show();
-			//in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/search?q=" + "escola politecnica superior UdL"));
-			in = new Intent(Intent.ACTION_WEB_SEARCH);
-			in.putExtra(SearchManager.QUERY, textoABuscar);
-			startActivity(in);
+		//in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/search?q=" + "escola politecnica superior UdL"));
+		in = new Intent(Intent.ACTION_WEB_SEARCH);
+		in.putExtra(SearchManager.QUERY, textoABuscar);
+		startActivity(in);
 	        break;
 	    case R.id.button5:
 	    	Toast.makeText(this, getString(R.string.opcio5), Toast.LENGTH_LONG).show();
-			in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "@string/telef"));
-			startActivity(in);
+		in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "@string/telef"));
+		startActivity(in);
 	        break;
 	    case R.id.button6:
 	    	Toast.makeText(this, getString(R.string.opcio6), Toast.LENGTH_LONG).show();
-			in = new Intent(Intent.ACTION_VIEW);
-                        in.setData(ContactsContract.Contacts.CONTENT_URI);
-			startActivity(in);
-			break;
+		in = new Intent(Intent.ACTION_VIEW);
+                in.setData(ContactsContract.Contacts.CONTENT_URI);
+		startActivity(in);
+		break;
 	    }
 	}
 
