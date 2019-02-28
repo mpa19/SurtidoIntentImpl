@@ -15,14 +15,6 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener{
 	
-	private Intent in;
-	private final String lat = "41.60788";
-	private final String lon = "0.623333";
-	private final String url = "http://www.eps.udl.cat/";
-	private final String adressa = "Carrer de Jaume II, 69, Lleida";
-	private final String textoABuscar = "escuela politecnica superior";
-	
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -46,6 +38,13 @@ public class MainActivity extends Activity implements OnClickListener{
 	}
 
 	public void onClick (View v) {
+		Intent in;
+		final String lat = "41.60788";
+		final String lon = "0.623333";
+		final String url = "http://www.eps.udl.cat/";
+		final String adressa = "Carrer de Jaume II, 69, Lleida";
+		final String textoABuscar = "escuela politecnica superior";
+
 		switch (v.getId()) {
 	    case R.id.button1: 
 	      Toast.makeText(this, getString(R.string.opcio1), Toast.LENGTH_LONG).show();
@@ -64,6 +63,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	        break;
 	    case R.id.button4:
 	    	Toast.makeText(this, getString(R.string.opcio4), Toast.LENGTH_LONG).show();
+			//in = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/search?q=" + "escola politecnica superior UdL"));
 			in = new Intent(Intent.ACTION_WEB_SEARCH);
 			in.putExtra(SearchManager.QUERY, textoABuscar);
 			startActivity(in);
@@ -75,13 +75,12 @@ public class MainActivity extends Activity implements OnClickListener{
 	        break;
 	    case R.id.button6:
 	    	Toast.makeText(this, getString(R.string.opcio6), Toast.LENGTH_LONG).show();
-			in = new Intent(Intent.ACTION_VIEW); 
+			in = new Intent(Intent.ACTION_VIEW);
             in.setData(ContactsContract.Contacts.CONTENT_URI);
 			startActivity(in);
 			break;
 	    }
 	}
-	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -89,5 +88,4 @@ public class MainActivity extends Activity implements OnClickListener{
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
 }
