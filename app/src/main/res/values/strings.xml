@@ -11,7 +11,7 @@
     <string name="Boto2">Por direcc.</string>
     <string name="Boto3">Por URL</string>
     <string name="Boto4">Google</string>
-    <string name="Boto5">Marcar</string>
+    <string name="Boto5">Llamar</string>
     <string name="Boto6">Acceder Contactos</string>
     <string name="telef">666666666</string>
 
@@ -19,7 +19,7 @@
     <string name="opcio2">Seleccionado Localizacion por dirección</string>
     <string name="opcio3">Accediendo a la web</string>
     <string name="opcio4">Buscando en Google</string>
-    <string name="opcio5">Marcando el Tlfn.</string>
+    <string name="opcio5">Llamando el Tlfn.</string>
     <string name="opcio6">Accediendo a contactos</string>
 
 
