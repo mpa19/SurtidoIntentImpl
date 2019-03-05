@@ -34,7 +34,10 @@ public class MainActivity extends Activity implements OnClickListener{
 	    btn4.setOnClickListener(this);
 	    btn5.setOnClickListener(this);
 	    btn6.setOnClickListener(this);
-	    
+		
+	    if (Build.VERSION.SDK_INT >= 23)
+	        if (! ckeckPermissions())
+		   requestPermissions();	  
 	}
 
 	public void onClick (View v) {
@@ -69,8 +72,6 @@ public class MainActivity extends Activity implements OnClickListener{
 		startActivity(in);
 	        break;
 	    case R.id.button5:
-		if (! ckeckPermissions())
-			requestPermissions();
 	    	Toast.makeText(this, getString(R.string.opcio5), Toast.LENGTH_LONG).show();
 		in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + getText(R.string.telef)));
 		startActivity(in);
@@ -86,7 +87,6 @@ public class MainActivity extends Activity implements OnClickListener{
 
 	private boolean ckeckPermissions() {
 		if (Build.VERSION.SDK_INT >= 23) {
-			//String[] PERMISSIONS = {android.Manifest.permission.CALL_PHONE};
 			if (ActivityCompat.checkSelfPermission(getApplicationContext(),
 					Manifest.permission.CALL_PHONE) ==
 					PackageManager.PERMISSION_GRANTED)
