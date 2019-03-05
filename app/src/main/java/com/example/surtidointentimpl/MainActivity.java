@@ -72,7 +72,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		if (! ckeckPermissions())
 			requestPermissions();
 	    	Toast.makeText(this, getString(R.string.opcio5), Toast.LENGTH_LONG).show();
-		in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "@string/telef"));
+		in = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + getText(R.string.telef)));
 		startActivity(in);
 	        break;
 	    case R.id.button6:
