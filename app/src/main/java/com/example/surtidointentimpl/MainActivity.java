@@ -1,12 +1,17 @@
 package com.example.surtidointentimpl;
 
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.Contacts.People;
+import android.provider.ContactsContract;
+import android.support.v4.app.ActivityCompat;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -27,13 +32,16 @@ public class MainActivity extends Activity implements OnClickListener{
 	    Button btn4 = findViewById(R.id.button4);
 	    Button btn5 = findViewById(R.id.button5);
 	    Button btn6 = findViewById(R.id.button6);
+		Button btn7 = findViewById(R.id.buttonM);
 
-	    btn1.setOnClickListener(this);
+
+		btn1.setOnClickListener(this);
 	    btn2.setOnClickListener(this);
 	    btn3.setOnClickListener(this);
 	    btn4.setOnClickListener(this);
 	    btn5.setOnClickListener(this);
 	    btn6.setOnClickListener(this);
+	    btn7.setOnClickListener(this);
 		
 	    if (Build.VERSION.SDK_INT >= 23)
 	        if (! ckeckPermissions())
@@ -81,7 +89,12 @@ public class MainActivity extends Activity implements OnClickListener{
 		in = new Intent(Intent.ACTION_VIEW);
                 in.setData(ContactsContract.Contacts.CONTENT_URI);
 		startActivity(in);
-		break;
+			break;
+		case R.id.buttonM:
+			in = new Intent(Intent.ACTION_DIAL);
+			in.setData(Uri.parse("tel:"));
+			startActivity(in);
+			break;
 	    }
 	}
 

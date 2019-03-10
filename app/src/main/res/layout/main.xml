@@ -39,6 +39,13 @@
         android:gravity="center"
         android:text="@string/navegando" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/url" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,6 +74,12 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/contactando" />
+
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marcar" />
 
         <Button
             android:id="@+id/button5"

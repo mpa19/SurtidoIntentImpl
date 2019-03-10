@@ -1,61 +1,156 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:2:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\4fae7b79396064bd306dadd31015e0a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8af0c48a3fa5cd28e054de6cd2967145\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\a096f06fc4a28d39c35794bf68a71c11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9f48779f60a8d1c922e87920a9449c89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0a5f7717359379b152f4cd6a79ad4324\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89ad5c5671d49bd69cd2f346a80a5335\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\018dd1a7406e04f99797017f53c4a512\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ba78f29b3ccdd5c5bcdc9ab9634c830a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\95c585afd39f7c74aaea4d549a35900f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a111b41b849d82a0e0743ac28f41aa9b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f8f5258e66a352e06a2fd47bad5de81f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\83ae6758ef52d48d7e861dae693e541c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\be5b2fe406fc716312434fbb7597ce62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\889b55ed0d323fc6e139ea26d5e82f83\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\44dfcd9bd61e4e913643ef100f26a880\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\09e95674b1a15206941d70a58908bbf8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\f39aae68164712b582df2b28e44383b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\734c36d051b8f90457863c8bf50b0200\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\af29024a2e01bc127a6758e0d5e26b37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f0ca3e1506dd48e4e0b1ebb13c2ff123\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\afb3f3b889559cc83c96edd7f6d62da4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bd69c70d3b5d4e36cbc34379434ba80b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a97ba44f64e0f50cab6c6ec8bc207cad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ff4da00382b08c1ddaff61ebd7d7f814\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d094629c636cce90d59a75c155fdfdb4\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from AndroidManifest.xml:5:5
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from AndroidManifest.xml:4:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
-uses-sdk
-ADDED from AndroidManifest.xml:7:5
-MERGED from com.android.support:support-v4:21.0.0:15:5
-	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:9:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
-	android:minSdkVersion
-		ADDED from AndroidManifest.xml:8:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
-uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:10:5
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:7:5-69
 	android:name
-		ADDED from AndroidManifest.xml:10:22
-uses-permission#android.permission.SEND_SMS
-ADDED from AndroidManifest.xml:11:5
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:7:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from AndroidManifest.xml:11:22
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from AndroidManifest.xml:13:5
-MERGED from com.android.support:support-v4:21.0.0:16:5
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:11:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\889b55ed0d323fc6e139ea26d5e82f83\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\889b55ed0d323fc6e139ea26d5e82f83\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\44dfcd9bd61e4e913643ef100f26a880\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\44dfcd9bd61e4e913643ef100f26a880\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\889b55ed0d323fc6e139ea26d5e82f83\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from AndroidManifest.xml:16:9
-	android:allowBackup
-		ADDED from AndroidManifest.xml:14:9
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:14:9-41
 	android:icon
-		ADDED from AndroidManifest.xml:15:9
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from AndroidManifest.xml:17:9
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.example.surtidointentimpl.MainActivity
-ADDED from AndroidManifest.xml:18:9
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:label
-		ADDED from AndroidManifest.xml:20:13
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from AndroidManifest.xml:19:13
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:21:13
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:17:13-70
+intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:22:17
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from AndroidManifest.xml:22:25
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:20:25-66
+action#android.intent.action.VIEW
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:24:17
+ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from AndroidManifest.xml:24:27
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\4fae7b79396064bd306dadd31015e0a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\4fae7b79396064bd306dadd31015e0a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8af0c48a3fa5cd28e054de6cd2967145\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8af0c48a3fa5cd28e054de6cd2967145\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\a096f06fc4a28d39c35794bf68a71c11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\a096f06fc4a28d39c35794bf68a71c11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9f48779f60a8d1c922e87920a9449c89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9f48779f60a8d1c922e87920a9449c89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0a5f7717359379b152f4cd6a79ad4324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0a5f7717359379b152f4cd6a79ad4324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89ad5c5671d49bd69cd2f346a80a5335\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89ad5c5671d49bd69cd2f346a80a5335\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\018dd1a7406e04f99797017f53c4a512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\018dd1a7406e04f99797017f53c4a512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ba78f29b3ccdd5c5bcdc9ab9634c830a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ba78f29b3ccdd5c5bcdc9ab9634c830a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\95c585afd39f7c74aaea4d549a35900f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\95c585afd39f7c74aaea4d549a35900f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a111b41b849d82a0e0743ac28f41aa9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\a111b41b849d82a0e0743ac28f41aa9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f8f5258e66a352e06a2fd47bad5de81f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\f8f5258e66a352e06a2fd47bad5de81f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\83ae6758ef52d48d7e861dae693e541c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\83ae6758ef52d48d7e861dae693e541c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\be5b2fe406fc716312434fbb7597ce62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\be5b2fe406fc716312434fbb7597ce62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\889b55ed0d323fc6e139ea26d5e82f83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\889b55ed0d323fc6e139ea26d5e82f83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\44dfcd9bd61e4e913643ef100f26a880\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\44dfcd9bd61e4e913643ef100f26a880\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\09e95674b1a15206941d70a58908bbf8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\09e95674b1a15206941d70a58908bbf8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\f39aae68164712b582df2b28e44383b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\f39aae68164712b582df2b28e44383b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\734c36d051b8f90457863c8bf50b0200\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\734c36d051b8f90457863c8bf50b0200\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\af29024a2e01bc127a6758e0d5e26b37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\af29024a2e01bc127a6758e0d5e26b37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f0ca3e1506dd48e4e0b1ebb13c2ff123\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f0ca3e1506dd48e4e0b1ebb13c2ff123\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\afb3f3b889559cc83c96edd7f6d62da4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\afb3f3b889559cc83c96edd7f6d62da4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bd69c70d3b5d4e36cbc34379434ba80b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\bd69c70d3b5d4e36cbc34379434ba80b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a97ba44f64e0f50cab6c6ec8bc207cad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\a97ba44f64e0f50cab6c6ec8bc207cad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ff4da00382b08c1ddaff61ebd7d7f814\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ff4da00382b08c1ddaff61ebd7d7f814\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d094629c636cce90d59a75c155fdfdb4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Marc\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d094629c636cce90d59a75c155fdfdb4\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marc\.AndroidStudio1.3\SurtidoIntentImpl\app\src\main\AndroidManifest.xml

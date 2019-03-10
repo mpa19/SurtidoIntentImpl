@@ -15,6 +15,11 @@
     <string name="Boto6">Acceder Contactos</string>
     <string name="telef">666666666</string>
 
+    <string name="url">http://www.udl.cat</string>
+    <string name="marcar">MARCAR</string>
+
+
+
     <string name="opcio1">Seleccionado Localizacion por coordenadas</string>
     <string name="opcio2">Seleccionado Localizacion por dirección</string>
     <string name="opcio3">Accediendo a la web</string>
