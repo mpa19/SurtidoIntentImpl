@@ -17,6 +17,12 @@
 
     <string name="url">http://www.udl.cat</string>
     <string name="marcar">MARCAR</string>
+    <string name="send">SEND SMS</string>
+    <string name="galeria">Acceder Galería imágenes</string>
+    <string name="email">SEND EMAIL</string>
+
+
+
 
 
 
