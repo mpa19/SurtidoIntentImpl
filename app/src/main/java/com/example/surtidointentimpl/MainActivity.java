@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -18,10 +19,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener{
 
+	TextView tv1;
 	ImageView foto;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,8 @@ public class MainActivity extends Activity implements OnClickListener{
 		Button btn8 = findViewById(R.id.buttonSms);
 		Button btn9 = findViewById(R.id.button7);
 		Button btn10 = findViewById(R.id.button8);
+		Button btn11 = findViewById(R.id.button9);
+
 
 
 
@@ -54,8 +59,10 @@ public class MainActivity extends Activity implements OnClickListener{
 		btn8.setOnClickListener(this);
 		btn9.setOnClickListener(this);
 		btn10.setOnClickListener(this);
+		btn11.setOnClickListener(this);
 
 
+		tv1 = findViewById(R.id.textView2);
 		foto = findViewById(R.id.imageView);
 
 		if (Build.VERSION.SDK_INT >= 23)
@@ -127,6 +134,12 @@ public class MainActivity extends Activity implements OnClickListener{
 				in.setType("message/rfc822");
 				startActivity(in);
 				break;
+			case R.id.button9:
+				in = new Intent(Intent.ACTION_PICK);
+				in.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+				startActivityForResult(in, 3);
+
+				break;
 		}
 	}
 
@@ -135,6 +148,23 @@ public class MainActivity extends Activity implements OnClickListener{
 		super.onActivityResult(requestCode,resultCode,data);
 		if(resultCode == RESULT_OK && requestCode == 2){
 			foto.setImageURI(data.getData());
+		} else if(resultCode == RESULT_OK && requestCode == 3){
+			Uri contactUri = data.getData();
+			//String phoneNo = null;
+			String name = null;
+
+			Cursor cursor = null;
+			cursor = getContentResolver().query(contactUri, null, null, null, null);
+			cursor.moveToFirst();
+			//int  phoneIndex =cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
+			int  nameIndex =cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME);
+			//phoneNo = cursor.getString(phoneIndex);
+			name = cursor.getString(nameIndex);
+
+			tv1.setText(name);
+
+
+
 		}
 	}
 
